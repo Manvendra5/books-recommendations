@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+
+.App {
+  font-family: "Manrope", sans-serif;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+
+.btn-container {
+  margin-bottom: 2rem;
+}
+
+.figure {
+  display: inline-block;
+  width: 200px;
+  height: 300px;
+}
+
+.figure figcaption {
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+.genres {
+  font-family: inherit;
+  font-size: medium;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  margin: 1rem, 0rem;
+  padding: 14px 16px;
+}
+
+.genres:hover {
+  background-color: #60a5fa;
+}
+
+.list-item-container {
+  list-style: none;
+  padding-inline-start: 0px;
+  margin-block-end: 0px;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 1rem;
+  transition: 0.5s;
+}
+
+.list-item-inline:hover {
+  opacity: 0.5;
+}
+
+.list-image {
+  width: 200px;
+  height: 300px;
+}
